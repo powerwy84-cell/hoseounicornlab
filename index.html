@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- 2026-11-28 rev.4 — 첫 화면 배경 사진을 흐리게 (진하기 30%만 남김) -->
 <!-- 2026-11-28 rev.3 — 연구실 활동 사진 2장 추가 (자르지 않고 원본 비율 그대로, 사진 아래 글은 그대로) -->
 <!-- 2026-11-28 rev.2 — 핵심 연구 분야에 바이오센서·생체연료전지 그림 추가 (카드 아래쪽을 꽉 채우게, 흰 여백 없음) -->
 <!-- 2026-11-28 rev.1 — 실제 사이트용으로 브라우저 탭 제목 변경 (rev 표시 삭제) -->
@@ -63,7 +64,7 @@
   /* 첫 화면 배경 사진: 휴대폰은 아래쪽, 컴퓨터는 오른쪽 */
   .hero-bg{position:absolute;left:0;right:0;bottom:0;height:62%;z-index:0;
     -webkit-mask-image:linear-gradient(to bottom,transparent 0,#000 30%);mask-image:linear-gradient(to bottom,transparent 0,#000 30%)}
-  .hero-bg img{width:100%;height:100%;object-fit:cover;object-position:center 20%;display:block}
+  .hero-bg img{width:100%;height:100%;object-fit:cover;object-position:center 20%;display:block;opacity:.3} /* 사진 진하기 30% */
   .hero-inner{position:relative;z-index:1}
   .hero-side{margin-top:22px}
   .hero .eyebrow{font-size:13px;font-weight:700;letter-spacing:.18em;color:#6a8f1c;margin-bottom:10px}
